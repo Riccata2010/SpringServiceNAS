@@ -18,4 +18,6 @@ example client app on http://your_nas_ip:8888
 
 ![image info](./image/app.png)
 
+if you want to see the web console db H2 http://localhost:8081
+
 NOTE: to compile the web app it is necessary to update the folder "SpringServiceWebPhotoClient/client/app-photo-client/src/assets/libs" with Bootstrap, JQuery and Animate.css.
