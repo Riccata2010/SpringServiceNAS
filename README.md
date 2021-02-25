@@ -14,7 +14,7 @@ typically photos and videos.
 There is also a third micro service used to present a simple angular web app to actually (multiple file) upload.
 
 
-example client app on #http://your_nas_ip:8888
+example client app on http://your_nas_ip:8888
 
 ![image info](./image/app.png)
 
