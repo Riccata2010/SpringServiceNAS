@@ -14,5 +14,6 @@ One micro service takes care of saving information in an H2 db, while the other 
 typically photos and videos. There is also a third micro service used to present a simple angular web app to actually upload.
 
 
+example client app
 
 ![image info](./image/app.png)
