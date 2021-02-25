@@ -17,3 +17,5 @@ There is also a third micro service used to present a simple angular web app to 
 example client app
 
 ![image info](./image/app.png)
+
+NOTE: to compile the web app it is necessary to update the folder "SpringServiceWebPhotoClient/client/app-photo-client/src/assets/libs" with Bootstrap, JQuery and Animate.css.
