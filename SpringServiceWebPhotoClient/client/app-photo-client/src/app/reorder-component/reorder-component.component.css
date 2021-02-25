@@ -1,0 +1,11 @@
+.upload_form {
+  width: 95%;
+  margin: 5 auto;
+  text-align: center;
+}
+
+.ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

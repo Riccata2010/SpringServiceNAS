@@ -1,0 +1,38 @@
+<div id="reorder">
+    <h3 class="text-center text-white pt-5"></h3>
+    <div class="container">
+        <div id="reorder_row" class="row justify-content-center align-items-center">
+            <div id="reorder_column" class="col-md-12">
+                <div id="reorder_box" class="col-md-12">
+
+                    <h3 class="text-center text-info">Here you can reorder your archive</h3>
+                    <div class="spacer_50"></div>
+                    <div class="form-group">
+                        <button id="btn_reorder" class="btn btn-success btn-lg" (click)="reorderAllData()">
+                            Reorder All (may take long time...)
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <div class="progress" style="height: 30px;">
+                            <div id="prog_reorder" class="{{ prog_class }}" role="progressbar"
+                                attr.aria-valuenow="{{ prog_value }}" [ngStyle]="{ width: prog_value + '%' }"
+                                aria-valuemin="0" aria-valuemax="100">
+
+                                {{ prog_value_txt }}
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="reorder_name_file_reorder" class="text-right ellipse">
+                        {{ current_name }}
+                    </div>
+                    <div id="message_reorder" class="text-center">
+                        {{ message }}
+                    </div>
+                    <div class="spacer_50"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
