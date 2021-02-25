@@ -15,4 +15,4 @@ typically photos and videos. There is also a third micro service used to present
 
 
 
-![image info](./pictures/image.png)
+![image info](./image/app.png)
