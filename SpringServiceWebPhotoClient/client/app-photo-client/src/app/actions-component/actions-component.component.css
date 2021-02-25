@@ -1,0 +1,35 @@
+.btn {
+  width: 100%;
+}
+
+.btn.btn-primary.btn-lg {
+  border-radius: 0;
+}
+
+.button_single_ {
+  align-items: center;
+}
+
+.btn-success,
+.btn-primary_a:hover,
+.btn-primary_a:active,
+.btn-primary_a:visited {
+  color: #fff;
+  background-color: #560ae4;
+  border-color: #7540d8;
+  border-radius: 0;
+  width: 100%;
+}
+
+.bg-nav {
+  background-color: #560ae4;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 990px) {
+  #logo {
+    display: none;
+  }
+}
+

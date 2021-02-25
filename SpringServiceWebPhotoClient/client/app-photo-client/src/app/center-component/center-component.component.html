@@ -1,0 +1,19 @@
+<div [ngSwitch]="action" class="animate__animated animate__fadeInUp">
+    
+    <div *ngSwitchCase="'UPLOAD'">
+        <app-upload-component></app-upload-component> 
+    </div>
+
+    <div *ngSwitchCase="'REORDER'">
+        <app-reorder-component></app-reorder-component> 
+    </div>
+
+    <div *ngSwitchCase="'VIEW'">
+        <app-view-component></app-view-component> 
+    </div>
+
+    <div *ngSwitchDefault class="welcome">
+        <div class="message"></div>
+    </div>
+
+</div>
