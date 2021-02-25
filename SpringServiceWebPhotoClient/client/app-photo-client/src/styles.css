@@ -1,0 +1,46 @@
+@import url("./assets/libs/animate.css/animate.css");
+@import url("./assets/libs/bootstrap/dist/css/bootstrap.css");
+@import url("./assets/libs/bootstrap/dist/css/bootstrap-grid.css");
+
+body {
+  height: 98%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.bg {
+  margin: 0;
+  /*background-image: url("assets/images/wallpaper.png");*/
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacer_50 {
+  width: 50px;
+  height: 50px;
+}
+
+.spacer_20 {
+    width: 20px;
+    height: 20px;
+  }
+
+.toolbar {
+  height: 50px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  background-color: #560ae4;
+  color: white;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 800;
+}
+
+.toolbar .logo {
+  margin: 0 16px;
+}
+
+.spacer {
+  margin: 0 1px;
+}
