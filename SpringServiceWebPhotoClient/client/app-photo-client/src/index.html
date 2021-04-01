@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AppPhotoClient</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body class="bg">
+    <app-root></app-root>
+    <script src="./assets/libs/jquery/dist/jquery.js"></script>
+<!--
+
+	VERSIONE CON SERVICE-WORKER
+	
+    <script>
+
+	var registration = null;
+
+	function sendToServiceWorker(message, value, skip) {
+		registration.active.postMessage({
+		    message		: message,
+		    value		: value,
+		    skip		: skip,
+		    info_url	: "http://127.0.0.1:8804/ss-nas-photo/info-file",
+		    upload_url	: "http://127.0.0.1:8804/ss-nas-photo/upload"
+		});
+	}
+
+	if ('serviceWorker' in navigator) {
+		window.addEventListener('load', () => {
+
+  			navigator.serviceWorker.addEventListener('message', event => {
+    				console.log(`The service worker sent me a message: ${event.data}`);  
+  			});
+	
+			navigator.serviceWorker.register('./assets/service-worker.js').then((reg) => {
+				registration = reg;
+				//reg.active.postMessage("ciao ciao");
+			}).catch((err) => {
+				console.error(err);
+			});
+	  	});
+	}
+	
+    </script>
+    
+-->
+
+</body>
+
+</html>
