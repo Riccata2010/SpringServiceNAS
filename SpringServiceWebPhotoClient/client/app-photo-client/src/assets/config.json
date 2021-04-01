@@ -1,9 +1,0 @@
-{
-  "info_file_url": "http://localhost:8804/ss-nas-photo/info-file",
-  "reorder_url": "http://localhost:8804/ss-nas-photo/reorder",
-  "reorder_data_url": "http://localhost:8804/ss-nas-photo/reorder-data",
-  "upload_url1": "http://localhost:8804/ss-nas-photo/upload",
-  "upload_url2": "http://localhost:8805/ss-nas-photo/upload",
-  "upload_url_ping1": "http://localhost:8804/ss-nas-photo/ping",
-  "upload_url_ping2": "http://localhost:8805/ss-nas-photo/ping"
-}
