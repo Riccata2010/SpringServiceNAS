@@ -1,0 +1,24 @@
+.upload_form {
+  width: 95%;
+  margin: 5 auto;
+  text-align: center;
+}
+
+.spacer_top {
+  height: 50px;
+}
+
+.ellipse {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#selector_multiple { 
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

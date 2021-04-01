@@ -1,0 +1,28 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-nav">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <div class="button_single status_con">
+
+                    {{ connection_status }}
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div id="logo" class="toolbar" role="banner">
+        <div class="logo">
+            <fa-icon [icon]="camera_retro" size="2x"></fa-icon>
+        </div>
+        <div class="spacer"></div>
+        <span class="animate__animated animate__rubberBand">Reorder Photo Client</span>
+        <div class="spacer"></div>
+    </div>
+
+</nav>
